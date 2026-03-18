@@ -1,0 +1,149 @@
+*{
+    list-style-type: none;
+    color: black;
+}
+
+/* CSS  */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px red;
+}
+
+
+.Logo {
+    height: 70px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 40px;
+    border: solid 1px red;
+}
+
+header nav{
+    height: 70px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
+header nav ul li{
+    color: rgb(0, 0, 0);
+    padding: 0%;
+}
+
+header nav ul{
+    display: flex;
+    gap: 100px;
+    border: solid 1px rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+li a:hover{
+     background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+section{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px red;
+    margin-top: 10px;
+}
+
+.apresentacaoText{
+    height: 400px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.box-texto{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px red;
+}
+
+.box-texto p{
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin: 0;
+}
+
+.box-texto h3{
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+    font-weight:lighter;
+    margin-bottom: 40px;
+    color: rgb(78, 78, 78);
+    
+}
+
+.box-botao{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.box-botao button{
+     background-color: rgb(9, 103, 146);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.box-redes{
+     height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: solid 1px red;
+}
+
+.box-redes img{
+    width: 35px;
+}
+
+.box-redes a:hover{
+    padding: 1%;
+}
+
+
+.imagem-apresentacao{
+    height: 600px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.imagem-apresentacao img{
+    width: 400px;
+}
